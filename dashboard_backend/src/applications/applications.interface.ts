@@ -5,3 +5,9 @@ export interface Application {
   status: string;
   dateApplied: string;
 }
+
+export interface ApplicationStats {
+  totalApplications: number;
+  countsByStatus: Record<string, number>;
+  countsByMonth: Record<string, number>;
+}

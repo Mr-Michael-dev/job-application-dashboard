@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Application } from './applications.interface';
+import { Application, ApplicationStats } from './applications.interface';
 import fs from 'fs';
 import path from 'path';
 
@@ -29,12 +29,30 @@ export class ApplicationService {
         return this.loadApplications();
     }
 
-    getApplicationStats(): Record<string, number> {
+    getApplicationStats(): ApplicationStats {
         // method to get application statistics
         const applications = this.loadApplications();
-        return applications.reduce((acc, app) => {
+        
+        // Total applications
+        const totalApplications = applications.length;
+
+        // Count by status
+        const countsByStatus = applications.reduce((acc, app) => {
             acc[app.status] = (acc[app.status] || 0) + 1;
             return acc;
         }, {} as Record<string, number>);
+
+        // Count by month
+        const countsByMonth = applications.reduce((acc, app) => {
+            const month = new Date(app.dateApplied).toISOString().slice(0, 7); // e.g., "2024-10"
+            acc[month] = (acc[month] || 0) + 1;
+            return acc;
+        }, {} as Record<string, number>);
+
+        return {
+            totalApplications,
+            countsByStatus,
+            countsByMonth,
+        };
     }
 }

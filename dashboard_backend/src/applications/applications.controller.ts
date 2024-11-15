@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { ApplicationService } from './applications.service';
-import { Application } from './applications.interface';
+import { Application, ApplicationStats } from './applications.interface';
 
 @Controller('applications')
 export class ApplicationController{
@@ -15,7 +15,7 @@ export class ApplicationController{
 
   @Get('stats')
   // method to get application statistics
-    getApplicationStats(): Record<string, number> {
+    getApplicationStats(): ApplicationStats {
       return this.applicationService.getApplicationStats();
     }
 }
