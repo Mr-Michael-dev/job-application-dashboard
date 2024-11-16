@@ -6,7 +6,7 @@ import { join } from 'path';
 @Injectable()
 export class ApplicationService {
     // import data from the jobs application file
-    private readonly applicationsData = JSON.parse(
+    private readonly applications = JSON.parse(
         readFileSync(join(__dirname, '../../assets/applications.data.json'), 'utf-8'),
       );
     private applicationsCache: Application[] | null = null; // create a cache to avoid redundant fetching of data
@@ -15,13 +15,17 @@ export class ApplicationService {
     private loadApplications(): Application[] {
         if (!this.applicationsCache) {
             try {
-                this.applicationsCache = this.applicationsData;
+                this.applicationsCache = this.applications;
             } catch (error) {
                 console.error('Error loading applications data:', error);
                 throw new Error('Unable to load applications data.');
             }
         }
         return this.applicationsCache;
+    }
+
+    get applicationsData() {
+        return this.applications;
     }
 
     getApplications(): Application[] {
