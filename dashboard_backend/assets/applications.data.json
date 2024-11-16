@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "jobTitle": "Frontend Developer",
+    "companyName": "TechCorp",
+    "status": "accepted",
+    "dateApplied": "2024-10-12"
+  },
+  {
+    "id": "2",
+    "jobTitle": "Backend Developer",
+    "companyName": "DevCorp",
+    "status": "pending",
+    "dateApplied": "2024-11-01"
+  },
+  {
+    "id": "3",
+    "jobTitle": "Full Stack Developer",
+    "companyName": "InnovateX",
+    "status": "rejected",
+    "dateApplied": "2024-09-20"
+  },
+  {
+    "id": "4",
+    "jobTitle": "Data Scientist",
+    "companyName": "DataGen",
+    "status": "accepted",
+    "dateApplied": "2024-09-15"
+  },
+  {
+    "id": "5",
+    "jobTitle": "UI/UX Designer",
+    "companyName": "DesignWorks",
+    "status": "pending",
+    "dateApplied": "2024-10-05"
+  },
+  {
+    "id": "6",
+    "jobTitle": "Software Engineer",
+    "companyName": "CodeForge",
+    "status": "accepted",
+    "dateApplied": "2024-10-18"
+  },
+  {
+    "id": "7",
+    "jobTitle": "Product Manager",
+    "companyName": "ProdTech",
+    "status": "interviewing",
+    "dateApplied": "2024-09-28"
+  },
+  {
+    "id": "8",
+    "jobTitle": "Quality Assurance",
+    "companyName": "TestPro",
+    "status": "rejected",
+    "dateApplied": "2024-10-25"
+  },
+  {
+    "id": "9",
+    "jobTitle": "DevOps Engineer",
+    "companyName": "CloudHub",
+    "status": "pending",
+    "dateApplied": "2024-08-30"
+  },
+  {
+    "id": "10",
+    "jobTitle": "System Administrator",
+    "companyName": "NetWorks",
+    "status": "accepted",
+    "dateApplied": "2024-10-01"
+  },
+  {
+    "id": "11",
+    "jobTitle": "Database Administrator",
+    "companyName": "DataFlow",
+    "status": "interviewing",
+    "dateApplied": "2024-09-10"
+  },
+  {
+    "id": "12",
+    "jobTitle": "Security Analyst",
+    "companyName": "SafeTech",
+    "status": "pending",
+    "dateApplied": "2024-11-02"
+  },
+  {
+    "id": "13",
+    "jobTitle": "Network Engineer",
+    "companyName": "NetOps",
+    "status": "rejected",
+    "dateApplied": "2024-09-18"
+  },
+  {
+    "id": "14",
+    "jobTitle": "Business Analyst",
+    "companyName": "FinTech Solutions",
+    "status": "accepted",
+    "dateApplied": "2024-10-20"
+  },
+  {
+    "id": "15",
+    "jobTitle": "Cloud Engineer",
+    "companyName": "CloudWorks",
+    "status": "pending",
+    "dateApplied": "2024-09-05"
+  },
+  {
+    "id": "16",
+    "jobTitle": "Software Tester",
+    "companyName": "TestMasters",
+    "status": "rejected",
+    "dateApplied": "2024-10-22"
+  },
+  {
+    "id": "17",
+    "jobTitle": "Mobile Developer",
+    "companyName": "AppWorks",
+    "status": "accepted",
+    "dateApplied": "2024-09-12"
+  },
+  {
+    "id": "18",
+    "jobTitle": "AI Engineer",
+    "companyName": "AI Innovations",
+    "status": "interviewing",
+    "dateApplied": "2024-08-28"
+  },
+  {
+    "id": "19",
+    "jobTitle": "Embedded Systems Engineer",
+    "companyName": "HardwareTech",
+    "status": "pending",
+    "dateApplied": "2024-11-10"
+  },
+  {
+    "id": "20",
+    "jobTitle": "Technical Support Engineer",
+    "companyName": "TechHelp",
+    "status": "accepted",
+    "dateApplied": "2024-09-30"
+  }
+]

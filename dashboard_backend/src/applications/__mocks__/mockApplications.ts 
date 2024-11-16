@@ -1,0 +1,30 @@
+const mockApplications = [
+      {
+    "id": "1",
+    "jobTitle": "Frontend Developer",
+    "companyName": "TechCorp",
+    "status": "accepted",
+    "dateApplied": "2024-10-12"
+  },
+  {
+    "id": "2",
+    "jobTitle": "Backend Developer",
+    "companyName": "DevCorp",
+    "status": "pending",
+    "dateApplied": "2024-11-01"
+  },
+  {
+    "id": "3",
+    "jobTitle": "Full Stack Developer",
+    "companyName": "InnovateX",
+    "status": "rejected",
+    "dateApplied": "2024-09-20"
+  },
+  {
+    "id": "4",
+    "jobTitle": "Data Scientist",
+    "companyName": "DataGen",
+    "status": "accepted",
+    "dateApplied": "2024-09-15"
+  },
+]
