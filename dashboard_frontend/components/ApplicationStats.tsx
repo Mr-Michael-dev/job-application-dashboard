@@ -1,6 +1,9 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2';
-import { Chart as ChartJS } from 'chart.js/auto';
+import { Chart as ChartJS, ArcElement, CategoryScale, LinearScale, Tooltip, Legend } from 'chart.js';
+
+// Register required components
+ChartJS.register(ArcElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 interface ApplicationStatsProps {
   stats: {
